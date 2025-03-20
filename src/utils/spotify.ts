@@ -17,10 +17,10 @@ export function getRedirectUri(): string {
   
   if (isLocalhost) {
     // Use the environment variable for local development
-    return `${envRedirectUri}/`;
+    return `${envRedirectUri}`;
   } else {
     // For production (Vercel), use the deployed URL
-    return 'https://spotify-playlists-player.vercel.app/';
+    return 'https://spotify-playlists-player.vercel.app';
   }
 }
 
