@@ -1,3 +1,7 @@
+# Spotify Playlists Player
+
+A React application for playing Spotify playlists using the Spotify Web API and Web Playback SDK.
+
 ## Features
 
 - Spotify authentication using PKCE flow
