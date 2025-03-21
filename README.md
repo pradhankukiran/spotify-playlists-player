@@ -1,7 +1,3 @@
-# Spotify Playlists Player
-
-A React application for playing Spotify playlists using the Spotify Web API and Web Playback SDK.
-
 ## Features
 
 - Spotify authentication using PKCE flow
@@ -23,8 +19,8 @@ A React application for playing Spotify playlists using the Spotify Web API and 
    ```
 4. Register your app in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
 5. Add the following redirect URIs to your Spotify App settings:
-   - `http://localhost:4173/callback` (for local development)
-   - `https://spotify-playlists-player.vercel.app/callback` (for production)
+   - `http://localhost:4173` (for local development)
+   - `https://spotify-playlists-player.vercel.app` (for production)
 6. Start the development server:
    ```
    npm run dev
